@@ -53,7 +53,6 @@ funcRouter.post('/add', async (ctx, next) => {
   await fs.writeFile(funcOptionsStorePath, options ? options : JSON.stringify(DEFAULT_FUNCTION_EXEC_OPTIONS))
   ctx.body = { id }
 
-  console.log(ctx)
   await next()
 })
 

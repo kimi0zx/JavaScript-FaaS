@@ -22,7 +22,7 @@ export default {
       this.$router.push(ROUTER_MAP[1]);
     },
     github() {
-      window.open('')
+      window.open('https://github.com/kimi0zx/JavaScript-FaaS')
     }
   }
 };
